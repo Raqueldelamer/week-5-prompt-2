@@ -15,8 +15,8 @@ function calculateTotal() {
 
  
   
-  priceParagraph.innerHTML = `Your total bill is ${priceNumber}`;
-  tipParagraph.innerHTML = `Your tip should be ${tipNumber}`;
+  priceParagraph.innerHTML = `Your total bill is $ ${priceNumber}`;
+  tipParagraph.innerHTML = `Your tip should be $ ${tipNumber}`;
   totalParagraph.innerHTML = `Your total should be $ ${totalNumber}`;
 }
 
